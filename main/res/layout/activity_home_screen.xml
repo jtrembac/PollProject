@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.jeff.pollproject.Home_Screen">
+
+    <TextView
+        android:id="@+id/Greeting"
+        android:layout_width="358dp"
+        android:layout_height="107dp"
+        android:text="@string/greetings_welcome_to_the_real_time_polling_app"
+        android:textSize="30sp"
+        android:textColor="#101111"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/UsernameField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/username"
+
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <EditText
+        android:id="@+id/PasswordField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/pin"
+        android:inputType="numberPassword"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+</GridLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/enter_a_question"
+        android:inputType="textPersonName" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btnA"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="@string/a" />
+
+        <Button
+            android:id="@+id/btnB"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="@string/b" />
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:text="@string/c" />
+
+        <Button
+            android:id="@+id/btnD"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:text="@string/d" />
+
+        <EditText
+            android:id="@+id/ansA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:ems="10"
+            android:hint="@string/enter_1st_answer"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/ansB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:ems="10"
+            android:hint="@string/enter_2nd_answer"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/ansC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:ems="10"
+            android:hint="@string/enter_3rd_answer"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/ansD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:ems="10"
+            android:hint="@string/enter_4th_answer"
+            android:inputType="textPersonName" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/create_poll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/create" />
+</LinearLayout>
